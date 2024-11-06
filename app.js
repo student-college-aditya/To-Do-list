@@ -9,7 +9,7 @@ function AddTask(){
         li.innerHTML= inputBox.value;
         listContainer.appendChild(li);
         let span = document.createElement("span");
-        span.innerHTML= "";
+        span.innerHTML= "✂";
         li.appendChild(span);
     }
     inputBox.value="";
